@@ -16,10 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Sophia + Code = <a href="src/assets/red-heart.svg" target="_blank">
-          <img src="src/assets/red-heart.svg" className="hear emoji" alt="heart emoji" style={{ height: "75px", verticalAlign: 'middle' }} />
-        </a>
-      </h1>
+      <h1>Sophia + Code = ❤️</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
